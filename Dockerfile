@@ -8,4 +8,4 @@ RUN ./autogen.sh && ./configure --enable-release --enable-static --enable-shared
 RUN make; make htdoc.h; make
 RUN chmod +x ./install-sh && make install
 
-CMD "ht"
+ENTRYPOINT ["ht"]

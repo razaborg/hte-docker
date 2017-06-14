@@ -11,5 +11,5 @@ This is an alpine-based version of [HT-Editor](http://hte.sourceforge.net/) for 
 	docker build . -t hte
 
 ## Run
-	docker run -it -v /tmp:/tmp hte ht /tmp/myawesome.bin
+	docker run -it -v /tmp:/tmp hte /tmp/myawesome.bin
 
